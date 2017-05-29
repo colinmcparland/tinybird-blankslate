@@ -1,0 +1,47 @@
+/*
+Theme Name: BlankSlate Child
+Author: Tiny Bird Web Solutions
+Author URI: http://tinybird.ca
+Description: BlankSlate child theme, including some spicy task-runners and preprocessors.
+Version: 4.0.3
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+
+BlankSlate WordPress Theme © 2011-2015 TidyThemes
+BlankSlate is distributed under the terms of the GNU GPL
+*/
+
+/*  Color variables  */
+$yellow: #fcff2a;
+
+/*  Screen size variables  */
+$desktop: 1281px;
+$laptop: 1100px;
+$tablet: 780px;
+$mobile: 580px;
+$smallmobile: 480px;
+
+/*  Font size variables  */
+$small: 12px;
+$medium: 15px;
+$large: 18px;
+
+
+/*  Fonts  */
+@font-face {
+	font-family: 'Raleway Heavy';
+	src: url("./fonts/Raleway-Heavy.otf") format("opentype");
+}
+
+$ralewaybold: "Raleway Extra Bold", sans-serif;
+$raleway: "Raleway Heavy", sans-serif;
+$din: "DIN", sans-serif;
+
+
+/*  Global Styles  */
+body {
+	margin: 0;
+	font-size: 15px; /*  Fallback  */
+	font-size: 1rem;
+}
+
